@@ -106,9 +106,9 @@ const RandomStudent = () => {
 
 					<Pressable
 						onPress={() => {
-							// Navigate to the screens path with proper params
+							// Simplified navigation approach for Expo Router
 							router.push({
-								pathname: "/assign-task",
+								pathname: "/(screens)/assign-task",
 								params: {
 									studentId: student.id,
 									studentName: student.name,

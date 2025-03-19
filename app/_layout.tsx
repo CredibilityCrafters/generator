@@ -46,8 +46,7 @@ function RootLayoutNav() {
 			<Stack>
 				<Stack.Screen name="login" options={{ headerShown: false }} />
 				<Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-				<Stack.Screen name="(screens)" options={{ headerShown: true }} />
-				<Stack.Screen name="assign-task" options={{ headerShown: true, title: "Assign Task", headerBackTitle: "Home" }} />
+				<Stack.Screen name="(screens)/assign-task" options={{ headerShown: true, title: "Assign Task", headerBackTitle: "Home" }} />
 			</Stack>
 		</ThemeProvider>
 	);

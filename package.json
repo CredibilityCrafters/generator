@@ -6,6 +6,7 @@
     "start": "expo start --dev-client",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo run:android",
+    "clean": "rm -rf node-modules && cd ios && pod deintegrate && cd ../ && npm install && cd ios && pod install && cd ../",
     "ios": "expo run:ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
